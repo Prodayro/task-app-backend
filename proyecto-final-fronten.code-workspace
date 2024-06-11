@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../proyecto-final-fronten"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "proyecto-final-fronten"
+	}
+}

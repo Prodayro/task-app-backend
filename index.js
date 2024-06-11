@@ -82,7 +82,8 @@ app.get('/api/v1/tareas/:id', async (req, res) => {
 // Crear
 app.post('/api/v1/tareas', async (req, res) => {
     const taskData = req.body
-
+    console.log(taskData)
+    
     // 1. Conexion a la DB
     await dbClient.connect()
     // 2. Seleccionar la DB
